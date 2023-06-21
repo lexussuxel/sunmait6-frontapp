@@ -1,0 +1,56 @@
+td:nth-child(1) {
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+tr {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgb(102, 174, 223);
+  margin-bottom: 5px;
+}
+
+tr:hover {
+  background-color: rgb(245, 245, 246);
+}
+
+td p {
+  margin: 0;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+td button {
+  margin: auto 0;
+  cursor: pointer;
+  background-color: rgb(83, 137, 230);
+  color: white;
+}
+td button:hover {
+  background-color: rgb(28, 90, 197);
+}
+td p:first-child {
+  margin: 0;
+  font-size: 1rem;
+}
+
+td p:last-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag-wrapper {
+  color: white;
+  background-color: #cee4ff;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  margin: 0 2px;
+}
+
+table {
+  display: block;
+}
+tbody {
+  display: block;
+}
