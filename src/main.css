@@ -43,3 +43,18 @@ button {
   padding: 5px;
   border-radius: 10px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+form div {
+  display: flex;
+  column-gap: 8px;
+}
+
+.warning {
+  color: red;
+}

@@ -9,7 +9,6 @@ function HomePage() {
   useEffect(() => {
     getAllContacts().then(({ data }) => {
       setContatcs(data);
-      console.log(data);
     });
   }, []);
   function newContactHandler(e) {

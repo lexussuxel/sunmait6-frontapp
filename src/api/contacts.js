@@ -13,14 +13,9 @@ export async function getOneContact(id) {
 }
 
 export async function edit(contact) {
-  try {
-    console.log(contact);
-    const result = await axios.post(
-      `${process.env.VITE_SERVER}/contacts/${contact.id}`,
-      { ...contact }
-    );
-    return result;
-  } catch (e) {
-    alert(e.response.statusText);
-  }
+  const result = await axios.post(
+    `${process.env.VITE_SERVER}/contacts/${contact.id}`,
+    { ...contact }
+  );
+  return result;
 }
